@@ -1,0 +1,12 @@
+# Raw CDC natality files (~4.9 GB each) -- download from
+# https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm
+Nat*.txt
+*.zip
+
+# Large cleaned exports (parquet in clean/ is small enough to commit)
+clean/*.csv
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
