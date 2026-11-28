@@ -1,0 +1,182 @@
+{
+  "decision_tree": [
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.5958
+    },
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.5958
+    },
+    {
+      "max_depth": 6,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.638
+    },
+    {
+      "max_depth": 6,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.6377
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.6527
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.6526
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.6565
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.6571
+    },
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.6568
+    },
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.6603
+    }
+  ],
+  "random_forest": [
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.6658
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.6651
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.6709
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.6698
+    },
+    {
+      "max_depth": null,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.6709
+    },
+    {
+      "max_depth": null,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.6701
+    }
+  ],
+  "decision_tree+PREVIS": [
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.7125
+    },
+    {
+      "max_depth": 4,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.7125
+    },
+    {
+      "max_depth": 6,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.7335
+    },
+    {
+      "max_depth": 6,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.7332
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.7399
+    },
+    {
+      "max_depth": 8,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.7397
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.7434
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.7435
+    },
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 100,
+      "valid_auc": 0.7423
+    },
+    {
+      "max_depth": 14,
+      "min_samples_leaf": 500,
+      "valid_auc": 0.7447
+    }
+  ],
+  "random_forest+PREVIS": [
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.7488
+    },
+    {
+      "max_depth": 10,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.7483
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.7548
+    },
+    {
+      "max_depth": 16,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.7525
+    },
+    {
+      "max_depth": null,
+      "min_samples_leaf": 50,
+      "n_estimators": 100,
+      "valid_auc": 0.7561
+    },
+    {
+      "max_depth": null,
+      "min_samples_leaf": 200,
+      "n_estimators": 100,
+      "valid_auc": 0.7531
+    }
+  ]
+}

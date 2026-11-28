@@ -1,0 +1,3 @@
+,auc_without,auc_with_PREVIS,pr_auc_without,pr_auc_with_PREVIS,auc_gain
+Decision tree,0.6592,0.7509,0.1844,0.2604,0.0917
+Random forest,0.6715,0.7609,0.1953,0.2771,0.0895
